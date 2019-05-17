@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mufeng.library.view.helper.FingerDragHelper
+        android:id="@+id/fingerDragHelper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.mufeng.library.view.helper.SubsamplingScaleImageViewDragClose
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.mufeng.library.view.photoview.PhotoView
+            android:id="@+id/gif_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:visibility="gone"/>
+
+        <com.mufeng.library.view.photoview.PhotoView
+            android:id="@+id/thumbnailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </com.mufeng.library.view.helper.FingerDragHelper>
+
+    <FrameLayout
+        android:id="@+id/fl_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:textColor="#f1f1f1"
+            android:layout_gravity="center"
+            android:text="100%"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>
