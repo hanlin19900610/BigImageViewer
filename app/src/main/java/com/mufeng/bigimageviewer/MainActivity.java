@@ -78,8 +78,8 @@ public class MainActivity extends AppCompatActivity {
         list.add(info);
 
         info = new ImageInfo();
-        info.setThumbnailUrl("http://pic1.moodfans.com/Pic/2276/2019-05-16/537131c4-8b17-45fd-9c6f-2d0e162cb359.jpg?Expires=1558593459&OSSAccessKeyId=LTAIkQWa5JbEtpni&Signature=b3rDwK7eEWO1XYSzYQg41BBAwHQ%3D&x-oss-process=image%2Fauto-orient%2C0%2Fresize%2Cm_fill%2Cw_1000%2Ch_1000%2Fquality%2Cq_100%2Fformat%2Cwebp");
-        info.setOriginUrl("http://pic1.moodfans.com/Pic/2276/2019-05-16/537131c4-8b17-45fd-9c6f-2d0e162cb359.jpg?Expires=1558593464&OSSAccessKeyId=LTAIkQWa5JbEtpni&Signature=GAlnMCL596BITmknscTVvIL0x1A%3D&x-oss-process=image%2Fauto-orient%2C0%2Fresize%2Cm_lfit%2Cw_3000%2Fquality%2Cq_100%2Fwatermark%2Cimage_emxvZ28ucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfMTQ%2Ct_54%2Cx_5%2Cy_5%2Fformat%2Cwebp");
+        info.setThumbnailUrl("http://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=http%3A%2F%2Fphotocdn.sohu.com%2F20150721%2Fmp23627612_1437451852870_2.gif&thumburl=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1237732315%2C4262665329%26fm%3D26%26gp%3D0.jpg");
+        info.setOriginUrl("http://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=http%3A%2F%2Fphotocdn.sohu.com%2F20150721%2Fmp23627612_1437451852870_2.gif&thumburl=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1237732315%2C4262665329%26fm%3D26%26gp%3D0.jpg");
         list.add(info);
 
         info = new ImageInfo();

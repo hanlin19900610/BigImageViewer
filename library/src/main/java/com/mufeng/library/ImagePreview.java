@@ -36,7 +36,7 @@ public class ImagePreview {
     private int index = 0;// 默认显示第几个
     private String folderName = "Download";// 下载到的文件夹名（根目录中）
 
-    private float minScale = 0.8f;// 最小缩放倍数
+    private float minScale = 1.0f;// 最小缩放倍数
     private float mediumScale = 3.0f;// 中等缩放倍数
     private float maxScale = 5.0f;// 最大缩放倍数
 
@@ -380,7 +380,7 @@ public class ImagePreview {
     public void reset() {
         imageInfoList = null;
         index = 0;
-        minScale = 0.8f;
+        minScale = 1.0f;
         mediumScale = 3.0f;
         maxScale = 5.0f;
         zoomTransitionDuration = 200;
